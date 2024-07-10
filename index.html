@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="flex-shrink-0 p-3 sidebar" style="width: 280px;">
+      <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <svg class="bi me-2" width="30" height="24">
+          <use xlink:href="#bootstrap" />
+        </svg>
+        <span class="fs-5 fw-semibold " style="color: whitesmoke;">ULTIMEZ</span>
+      </a>
+
+      <span class="fs-5 fw-semibold">MAIN MENU</span>
+      <div class="d-flex flex-column p-2">
+        <a href="#" style="color: whitesmoke;">Dashboard</a>
+        <a href="#" style="color: whitesmoke;">Milestone</a>
+        <a href="#" style="color: whitesmoke;">Stepwise Course</a>
+        <a href="#" style="color: whitesmoke;">Task</a>
+        <a href="#" style="color: whitesmoke;">My Performance</a>
+        <a href="#" style="color: whitesmoke;">Feedback</a>
+        <a href="#" style="color: whitesmoke;">Training</a>
+      </div>
+      <span class="fs-5 fw-semibold">MANAGER'S MENU</span>
+
+      <ul class="list-unstyled ps-0">
+
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse" aria-expanded="false" style="color: whitesmoke;">
+            Team Leader Panel
+          </button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671" />
+          </svg>
+          <div class="collapse" id="dashboard-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" style="color: whitesmoke;">Overview</a></li>
+              <li><a href="#" style="color: whitesmoke;">Weekly</a></li>
+              <li><a href="#" style="color: whitesmoke;">Monthly</a></li>
+              <li><a href="#" style="color: whitesmoke;">Annually</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#Editorial-collapse" aria-expanded="false" style="color: whitesmoke;">
+            Editorial Panel
+          </button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671" />
+          </svg>
+          <div class="collapse" id="Editorial-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" style="color: whitesmoke;">Articles Likes</a></li>
+              <li><a href="#" style="color: whitesmoke;">Author Reports</a></li>
+              <li><a href="#" style="color: whitesmoke;">Editorial News</a></li>
+              <li><a href="#" style="color: whitesmoke;">Upload Keywords</a></li>
+              <li><a href="#" style="color: whitesmoke;">Topics</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#leads-collapse" aria-expanded="false" style="color: whitesmoke;">
+            Leads Panel
+          </button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671" />
+          </svg>
+          <div class="collapse" id="leads-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" style="color: whitesmoke;">Articles Likes</a></li>
+              <li><a href="#" style="color: whitesmoke;">Author Reports</a></li>
+              <li><a href="#" style="color: whitesmoke;">Editorial News</a></li>
+              <li><a href="#" style="color: whitesmoke;">Upload Keywords</a></li>
+              <li><a href="#" style="color: whitesmoke;">Topics</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#Backlinks-collapse" aria-expanded="false" style="color: whitesmoke;">
+            Backlinks Panel
+          </button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671" />
+          </svg>
+          <div class="collapse" id="Backlinks-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" style="color: whitesmoke;">Articles Likes</a></li>
+              <li><a href="#" style="color: whitesmoke;">Author Reports</a></li>
+              <li><a href="#" style="color: whitesmoke;">Editorial News</a></li>
+              <li><a href="#" style="color: whitesmoke;">Upload Keywords</a></li>
+              <li><a href="#" style="color: whitesmoke;">Topics</a></li>
+            </ul>
+          </div>
+        </li>
+
+        </li>
+      </ul>
+    </div>
+    <!--End Sidebar -->
+
+    <div class="main">
+      <div class="container-fluid d-flex flex-row justify-content-between align-items-center topNavbar">
+        <div class="d-flex flex-column mb-3">
+          <h6>Welcome to Ultimez Technology</h6>
+          <h6>Editor, Leads, Backlinks, Community Manager, Listing Executive Dashboard</h6>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alexa"
+            viewBox="0 0 16 16">
+            <path
+              d="M7.996 0A8 8 0 0 0 0 8a8 8 0 0 0 6.93 7.93v-1.613a1.06 1.06 0 0 0-.717-1.008A5.6 5.6 0 0 1 2.4 7.865 5.58 5.58 0 0 1 8.054 2.4a5.6 5.6 0 0 1 5.535 5.81l-.002.046-.012.192-.005.061a5 5 0 0 1-.033.284l-.01.068c-.685 4.516-6.564 7.054-6.596 7.068A7.998 7.998 0 0 0 15.992 8 8 8 0 0 0 7.996.001Z" />
+          </svg>
+          <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd"
+              d="M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-6.616l-2.88 2.592C8.537 20.461 7 19.776 7 18.477V17H5a2 2 0 0 1-2-2V6Zm4 2a1 1 0 0 0 0 2h5a1 1 0 1 0 0-2H7Zm8 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2Zm-8 3a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Zm5 0a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2h-5Z"
+              clip-rule="evenodd" />
+          </svg>
+          <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z" />
+          </svg>
+          <img src="profile.webp" class="img-fluid rounded-circle profileIcon" alt="Profile pic">
+        </div>
+      </div>
+      </nav>
+      <!-- End Navbar -->
+      <!--Menu-->
+      <div class="MenuFirst">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+        </svg>
+        <span>Editorial Panel > Editorial News > Pending Task >Bitcoin's Rally Towards a new Yearly...</span>
+      </div>
+
+      <div class="MenuFirst">
+
+        <span>New Article | DApp List | Website Content |02, Dec 2023(Wednesday at 5:44 PM)<button
+            class="approvalPending">Approvel
+            Pending</button></span>
+      </div>
+
+      <h3 class="MenuFirst">Bitcoin's Rally Towards a new Yearly: Could in reach 48K by Year's End? <span
+          class="editTitle">EDIT
+          TITLE</span></h3>
+      <a class="MenuFirst">http://coinpedia.org</a>
+      <br />
+      <span class="MenuFirst"><span class="editTitle">View Article Document Document</span> | Shared with Mlton and 4
+        others | 300 Words
+
+        <!--EndMenu-->
+        <!--Card-->
+        <div class="cardThree">
+          <div class="card" style="width: 22rem;">
+            <div class="card-body"  style="background-color: rgb(184, 226, 245);">
+              <h5 class="card-title">Article Type </h5>
+              <span>Total Views | DApp List | Website Content |02</span>
+            </div>
+          </div>
+          <div class="card" style="width: 22rem;">
+            <div class="card-body"  style="background-color: rgb(214, 175, 215);">
+              <h5 class="card-title">Keywords</h5>
+              <span>New Article | DApp List | Website Content |02</span>
+            </div>
+          </div>
+          <div class="card" style="width: 22rem;">
+            <div class="card-body "  style="background-color: rgb(151, 148, 173);">
+              <h5 class="card-title">Backlinks</h5>
+              <span>New Article | DApp List | Website Content |02</span>
+            </div>
+          </div>
+        </div>
+
+        <!--EndCard-->
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Device Category</th>
+              <th scope="col">ViewsTotal users</th>
+              <th scope="col">New Users</th>
+              <th scope="col">Users</th>
+              <th scope="col">Engaged Sessions</th>
+              <th scope="col">Enagagement rates</th>
+              <th scope="col">Average Enagagement Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

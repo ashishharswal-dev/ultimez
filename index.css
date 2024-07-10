@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #10069F;
+  color: white;
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+}
+
+.topNavbar {
+  background-color: #cdcbe5;
+   display: flex;
+  row-gap: 10px;
+  color: #5045ec;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profileIcon {
+  height: 40px;
+  width: 40px;
+}
+
+.approvalPending {
+  width: 180px;
+  background-color: rgb(196, 102, 15);
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+
+.editTitle {
+  color: rgb(103, 34, 241);
+  font-size: 20px;
+}
+
+.cardThree {
+  display: flex;
+  flex-direction: row;
+}
+
+.MenuFirst {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
